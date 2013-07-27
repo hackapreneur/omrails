@@ -1,5 +1,6 @@
 class Pin < ActiveRecord::Base
   attr_accessible :description, :image
+  
   has_attached_file :image, styles: { medium: "320x240>"}
 
   validates :description, presence: true
