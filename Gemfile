@@ -7,7 +7,8 @@ gem 'devise'
 gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
 gem 'aws-sdk'
 gem 'faker'
-
+gem 'will_paginate', '~> 3.0'
+gem 'bootstrap-will_paginate'
 
 group :production do
 	gem 'pg'
