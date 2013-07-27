@@ -4,6 +4,7 @@ gem 'rails', '3.2.13'
 gem 'jquery-rails'
 gem 'simple_form'
 gem 'devise'
+gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
 
 
 group :production do
